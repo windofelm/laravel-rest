@@ -1,0 +1,128 @@
+{
+	"id": "82df8091-c386-f55d-a3cc-67685883d971",
+	"name": "Books API - Jwt",
+	"description": "",
+	"order": [
+		"b7d1e887-1cdf-a7ee-0877-b05093ca2238",
+		"59452054-f89b-991c-4b83-239ee8022b6d",
+		"8b58c91f-606e-6d0f-871d-2948fbd6af55"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1506325353558,
+	"owner": "2822369",
+	"public": false,
+	"requests": [
+		{
+			"id": "59452054-f89b-991c-4b83-239ee8022b6d",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3QvbGFyYXZlbC1yZXN0L3B1YmxpYy9hcGkvYXV0aGVudGljYXRlIiwiaWF0IjoxNTA2MzI1NDE4LCJleHAiOjE1MDYzMjkwMTgsIm5iZiI6MTUwNjMyNTQxOCwianRpIjoiRzZRZXp6dFNXWTFMYkZxcCJ9.n39RN_aeyboQoeqWeVPi-Fxu_22d66V8cngRZlBIqtk\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3QvbGFyYXZlbC1yZXN0L3B1YmxpYy9hcGkvYXV0aGVudGljYXRlIiwiaWF0IjoxNTA2MzI1NDE4LCJleHAiOjE1MDYzMjkwMTgsIm5iZiI6MTUwNjMyNTQxOCwianRpIjoiRzZRZXp6dFNXWTFMYkZxcCJ9.n39RN_aeyboQoeqWeVPi-Fxu_22d66V8cngRZlBIqtk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/laravel-rest/public/api/get-user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "tony_admin@laravel.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506325473848,
+			"name": "api/get-user",
+			"description": "",
+			"collectionId": "82df8091-c386-f55d-a3cc-67685883d971",
+			"responses": []
+		},
+		{
+			"id": "8b58c91f-606e-6d0f-871d-2948fbd6af55",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3QvbGFyYXZlbC1yZXN0L3B1YmxpYy9hcGkvYXV0aGVudGljYXRlIiwiaWF0IjoxNTA2MzI1NDE4LCJleHAiOjE1MDYzMjkwMTgsIm5iZiI6MTUwNjMyNTQxOCwianRpIjoiRzZRZXp6dFNXWTFMYkZxcCJ9.n39RN_aeyboQoeqWeVPi-Fxu_22d66V8cngRZlBIqtk\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3QvbGFyYXZlbC1yZXN0L3B1YmxpYy9hcGkvYXV0aGVudGljYXRlIiwiaWF0IjoxNTA2MzI1NDE4LCJleHAiOjE1MDYzMjkwMTgsIm5iZiI6MTUwNjMyNTQxOCwianRpIjoiRzZRZXp6dFNXWTFMYkZxcCJ9.n39RN_aeyboQoeqWeVPi-Fxu_22d66V8cngRZlBIqtk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/laravel-rest/public/api/books",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "82df8091-c386-f55d-a3cc-67685883d971",
+			"data": null,
+			"dataMode": "params",
+			"name": "api/books",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1506326641507,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b7d1e887-1cdf-a7ee-0877-b05093ca2238",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/laravel-rest/public/api/authenticate",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "tony_admin@laravel.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506325476158,
+			"name": "api/authenticate",
+			"description": "",
+			"collectionId": "82df8091-c386-f55d-a3cc-67685883d971",
+			"responses": []
+		}
+	]
+}
